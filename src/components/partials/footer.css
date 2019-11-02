@@ -1,0 +1,31 @@
+.mainfooter {
+  position: relative;
+  margin-top: 40px;
+  top: 100px;
+  width: 100%;
+  overflow: hidden;
+}
+.text-center {
+  color: white;
+  position: relative !important;
+  background-color: #2d56af;
+  padding: 50px;
+}
+.follow {
+  float: left;
+  width: 50%;
+  text-align-last: center;
+}
+.links {
+  float: right;
+  width: 50%;
+  height: 40%;
+  position: relative;
+  top: -11px;
+}
+.links a {
+  color: white !important;
+}
+.mainfooter h4 {
+  font-weight: bolder !important;
+}

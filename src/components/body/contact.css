@@ -1,0 +1,49 @@
+@import url("https://fonts.googleapis.com/css?family=Exo+2");
+
+.contactmainpage {
+  position: relative;
+  top: 40px;
+}
+.cheader {
+  background-color: white;
+  color: #2d56af;
+  font-size: 30px;
+  text-align: center;
+  font-family: "Exo 2", sans-serif;
+  font-weight: 1000;
+  position: relative;
+  width: 80%;
+  left: 9.8%;
+}
+#pcontact {
+  font-size: 15px;
+  text-align: center;
+  font-family: "Exo 2", sans-serif;
+  font-weight: 1000;
+  position: relative;
+  top: 20px;
+}
+#pcontact1 {
+  background-color: #2d56af;
+  color: white;
+  position: relative;
+  left: 5px;
+  padding: 0 0.2%;
+  font-weight: normal !important;
+  border: 1px solid #2d56af;
+  border-radius: 10px;
+  text-decoration: none;
+}
+#pcontact1:hover {
+  cursor: pointer;
+  background-color: black;
+  color: white;
+}
+#gform {
+  position: relative;
+  top: 50px;
+  width: 100%;
+  min-height: 1500px;
+  overflow: hidden !important;
+  z-index: 100;
+}

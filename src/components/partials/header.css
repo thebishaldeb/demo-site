@@ -1,0 +1,149 @@
+@import url("https://fonts.googleapis.com/css?family=Exo+2");
+
+.jumbotron1 {
+  padding: 0px 12px !important;
+  color: #2d56af !important;
+  overflow: hidden;
+  overflow-x: hidden;
+  background-color: white !important;
+}
+
+.jumbotron1 .header-right a {
+  float: left;
+  color: #2d56af;
+  text-align: center;
+  padding: 25px 12px;
+  text-decoration: none;
+  border-radius: 4px;
+}
+
+.ieeesite {
+  position: absolute;
+  top: 28px;
+  right: 125px;
+  line-height: 25px;
+  font-size: 20px;
+  font-weight: 1000;
+}
+.ieeelogo {
+  font-size: 12px;
+  float: left;
+  font-weight: bold;
+  padding: 0px 20px;
+}
+.banner {
+  position: relative;
+  top: 25px;
+  width: 50%;
+  left: 0.5%;
+}
+@media only screen and (min-width: 1025px) {
+  .banner {
+    position: relative;
+    top: 25px;
+    width: 40%;
+    left: 14%;
+  }
+  #home,
+  #events,
+  #gallery,
+  #drop,
+  #contact {
+    padding: 7.5px 0px !important;
+    text-align: center;
+  }
+}
+.logoright {
+  font-size: 1px;
+  float: right;
+  font-weight: bold;
+  padding: 5px 20px;
+}
+
+.jumbotron1 .header-right a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+.header-right {
+  float: right;
+}
+.admin1,
+.admin2 {
+  background-color: white !important;
+  text-align: right !important;
+}
+.admin1 .container,
+.admin2 .container {
+  color: #3c3c3d !important;
+  font-size: 14px;
+}
+
+.tabs {
+  width: 100% !important;
+  position: relative;
+  top: 10px;
+}
+.tabs .container {
+  text-decoration: none;
+  font-family: "Exo 2", sans-serif;
+  color: white;
+}
+
+.drop1,
+.drop2 {
+  color: black !important;
+  text-decoration: none !important;
+  font-family: "Exo 2", sans-serif;
+  z-index: 100;
+}
+
+.drop {
+  color: white;
+  font-family: "Exo 2", sans-serif;
+}
+
+.tabs #drop:hover {
+  background-color: black;
+  color: white !important;
+}
+.tabs #home:hover,
+.tabs #events:hover,
+.tabs #gallery:hover,
+.tabs #contact:hover {
+  background-color: black;
+}
+.tabs #drop1:hover,
+.tabs #drop2:hover {
+  background-color: #ddd;
+}
+
+#home,
+#events,
+#gallery,
+#drop,
+#contact {
+  border: 1px solid #ddd;
+  width: 100%;
+  padding: 5px 0px !important;
+  text-align: center;
+  overflow: none;
+  position: relative;
+  background-color: #2d56af;
+}
+
+.navItemNavbar {
+  width: 20% !important;
+}
+#drop {
+  height: 100%;
+}
+#home1,
+#events1,
+#gallery1,
+#contact1,
+#drop1,
+#drop2 {
+  display: block !important;
+  width: 100% !important;
+}
